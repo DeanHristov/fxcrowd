@@ -1,0 +1,26 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "retainLines": true,
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-export-default-from",
+    [
+      "module-resolver",
+      {
+        "root": ["./app"],
+        "alias": {
+          "@assets": "./app/assets",
+          "@styles": "./app/styles",
+          "@config": "./app/config",
+          "@containers": "./app/components/containers",
+          "@ui": "./app/components/ui",
+          "@screens": "./app/screens",
+          "@navigation": "/app/navigation",
+          "@i18n": "./app/i18n",
+          "@store": "./app/store"
+        }
+      }
+    ]
+  ]
+}
