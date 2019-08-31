@@ -12,7 +12,9 @@ export const flexWrap = {
 };
 
 export const textSize = {
-  S: 14,
-  M: 16,
-  L: 18,
+  S: 20,
+  M: 28,
+  L: 36,
+  XL: 42,
+  XXL: 56,
 };
