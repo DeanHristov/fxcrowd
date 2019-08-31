@@ -13,6 +13,7 @@
           "@assets": "./app/assets",
           "@styles": "./app/styles",
           "@config": "./app/config",
+          "@modules": "./app/modules",
           "@containers": "./app/components/containers",
           "@ui": "./app/components/ui",
           "@screens": "./app/screens",
