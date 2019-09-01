@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import {View} from 'react-native';
-import {FormattedMessage} from 'react-intl-native';
+import {View, Text} from 'react-native';
+import {FormattedMessage} from 'react-intl';
 
 import FxContainer from '@containers/FxContainer';
 import FxButton from '@ui/FxButton';
@@ -14,7 +14,9 @@ export default function HomeScreen({ navigation }) {
   return (
     <FxContainer style={styles.container}>
       <View style={styles.textContainer}>
-        <FormattedMessage id={'home-screen:title'} style={styles.pageTitle}/>
+        <FormattedMessage id={'home-screen:title'}>
+          {msg =>  <Text style={styles.pageTitle}>{msg}</Text>}
+        </FormattedMessage>
       </View>
       <View style={styles.btnContainer}>
         <FxButton

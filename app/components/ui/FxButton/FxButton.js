@@ -1,6 +1,6 @@
 import React from 'react';
-import {TouchableOpacity} from 'react-native';
-import {FormattedMessage} from 'react-intl-native';
+import {TouchableOpacity, Text} from 'react-native';
+import {FormattedMessage} from 'react-intl';
 
 import styles from './styles';
 
@@ -13,6 +13,8 @@ export default ({ style, messageKey = '', ...rest}) => (
       style,
       rest.disabled ? styles.disabled : null
       ]} >
-    <FormattedMessage id={messageKey} style={styles.title}/>
+    <FormattedMessage id={messageKey}>
+      {msg => <Text  style={styles.title}>{msg}</Text>}
+    </FormattedMessage>
   </TouchableOpacity>
 )
