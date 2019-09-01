@@ -13,7 +13,7 @@ export default StyleSheet.create({
     ...flexCenter
   },
   btnContainer: {
-    flex: 3
+    flex: 2
   },
   button: {
     marginVertical: 28

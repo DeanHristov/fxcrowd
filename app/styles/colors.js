@@ -1,5 +1,6 @@
 export default {
   background: '#F5F5F5',
+  bgFooter: '#CAD3D3',
   primary: '#547777',
   secondary: '#fff',
   link: '#1B8DCF',
@@ -12,6 +13,7 @@ export default {
   decline: '#B72253',
   success: '#0FB983',
   disabled: '#B2CDC1',
+
   defaultLineGradient: ['#0FB983', '#82C185'],
   greenLineGradient: ['#62CC80', '#82C185'],
   errorLineGradient: ['#B72253', '#F35646'],
