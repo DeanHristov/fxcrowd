@@ -1,3 +1,11 @@
 export default {
-    'hello:world': 'Здравей свят...'
+    'home-screen:title': 'Избери метод',
+
+    'input:placeholder:title:username': 'потребителско име',
+    'input:placeholder:title:password': 'парола',
+
+    'btn:title:login': 'вход',
+    'btn:title:deposit': 'депозит',
+    'btn:title:fast-deposit': 'бърз депозит',
+    'btn:title:withdraw': 'изтегли',
 }

@@ -17,7 +17,7 @@
           "@containers": "./app/components/containers",
           "@ui": "./app/components/ui",
           "@screens": "./app/screens",
-          "@navigation": "/app/navigation",
+          "@navigation": "./app/navigation",
           "@i18n": "./app/i18n",
           "@store": "./app/store"
         }
