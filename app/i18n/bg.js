@@ -1,7 +1,7 @@
 export default {
     'home-screen:title': 'Избери метод',
 
-    'input:placeholder:title:username': 'потребителско име',
+    'input:placeholder:title:username': 'потребителско име или Email',
     'input:placeholder:title:password': 'парола',
 
     'btn:title:login': 'вход',

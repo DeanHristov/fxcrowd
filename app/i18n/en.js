@@ -1,7 +1,7 @@
 export default {
     'home-screen:title': 'Select Functionality',
 
-    'input:placeholder:title:username': 'username',
+    'input:placeholder:title:username': 'Username or Email',
     'input:placeholder:title:password': 'password',
 
     'btn:title:login': 'login',
