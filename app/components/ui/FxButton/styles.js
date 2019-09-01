@@ -5,7 +5,7 @@ import Colors from '@styles/colors';
 
 export default StyleSheet.create({
   container: {
-    height: 60,
+    height: 56,
     backgroundColor: Colors.green,
     ...flexCenter
   },
