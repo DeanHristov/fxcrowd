@@ -9,5 +9,6 @@ export default {
   'btn:title:fast-deposit': 'fast deposit',
   'btn:title:withdraw': 'withdraw',
 
+  'subtitle:credit-details:title': 'Card Details',
   'footer:policy:message': 'All transactions are not secure and they are fake! Do not worry about the data. Everything here is temporary and aren\'t saved anywhere!',
 };
