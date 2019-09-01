@@ -15,6 +15,9 @@ export default StyleSheet.create({
   btnContainer: {
     flex: 3
   },
+  button: {
+    marginVertical: 28
+  },
   pageTitle: {
     letterSpacing: 0,
     textTransform: 'capitalize',
