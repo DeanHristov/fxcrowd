@@ -5,7 +5,7 @@ import {IntlProvider} from 'react-intl-redux'
 
 import appStore from '@store/createStore'
 import FxRootNavigation from '@navigation/FxRootNavigation';
-
+import 'intl'
 export default function App () {
   const store = appStore();
   const { intl: { locale, messages }} = store.getState();
